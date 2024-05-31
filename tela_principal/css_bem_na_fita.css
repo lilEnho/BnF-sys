@@ -1,0 +1,99 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+
+.master{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text_titulo{
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.button_animation:hover{  /*:hover -> quando o mouse estiver em cima, essas propriedades são aplicadas*/
+    color:rgb(126, 94, 94);
+    transition: 0.5s;
+}
+.button_add_cliente{
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Remove bordas */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Muda o cursor para a mãozinha quando passa por cima */
+}
+
+.button_meu_cliente{
+    background-color: #e4b31f; /* Cor de fundo */
+    border: none; /* Remove bordas */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Muda o cursor para a mãozinha quando passa por cima */
+}
+
+
+.botoes_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button_achar_cliente{
+    
+    background-color: #006eff; /* Cor de fundo */
+    border: none; /* Remove bordas */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Muda o cursor para a mãozinha quando passa por cima */
+}
+
+.pedidos_dia{
+    background-color: #ff00d9; /* Cor de fundo */
+    border: none; /* Remove bordas */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Muda o cursor para a mãozinha quando passa por cima */
+}
